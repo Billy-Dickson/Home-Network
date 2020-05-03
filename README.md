@@ -46,13 +46,13 @@ Trunk link can carry multiple VLAN traffic and normally is used to connect switc
 #### Hybrid ports:
 - Allow multiple VLANs through.
 - Receive and send multiple VLAN packets.
-- Used for connection between switches, or switch and computer, or switch to phone to computer.
+- Used for connections between switches or switch to phone to computer (Devices that understand VLAN's).
 
 You might grasp an understading of ports types in following table.
 
 | No | Port Type  | Support Mode          | Common Use Cases       | Comments                             |
 |:---|:----------:|:----------------------|:-----------------------|:--------------------------------------|
-| 1  | Access     | Single Untagged VLAN  | Switch Port to Device  | Unifi name it "Native" other vendor setup Access Ports by Untagging the port and setting the PVID (usually using the same VLAN ID)|
+| 1  | Access     | Single Untagged VLAN  | Switch Port to Device  | Unifi name it "Native", other vendors setup Access Ports by Untagging the port and setting the PVID (usually using the same VLAN ID)|
 | 2  | Trunk      | Single Untagged VLAN + Multiple Tagged VLAN's | Switch to Switch, Hypervisor to Switch | VLAN 1 can be Tagged (Untagged by default) |
 | 3  | Hybrid     | Support Untagged VLAN's and Tagged VLAN's | Physical Connection: IP Phone to Network Switch Port & a PC to IP Phones Switch port.| Logical Connection: Voice VLAN as Tagged & Data VLAN as Untagged & Switch port in Trunk mode | * Usually the Untagged VLAN number = Native/Default VLAN number| * Support for multi-Untagged Frames, usually require the use of protocol-based VLANs | * VLAN 1 can be Tagged (Untagged by default) |
 ### References
