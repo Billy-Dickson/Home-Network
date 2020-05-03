@@ -18,13 +18,54 @@ Below is the hardware I use to run my home network, my network works great for m
 | Cat 6 UTP 100m | [Cat 6 UTP PVC Solid Core Cable](https://www.magicpatch.co.uk/cat6-cable/21-excel-cat6-utp-cable.html) | 36    |
 | 19" Rack Mount for Unifi Switch | [SimpleNetwork for Unifi 8 Port](https://www.amazon.co.uk/gp/product/B07VHQGZ7C/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) | 25    |
 
-### References
+### Network explainer
+
+You must have the doubt whats the function of the several ports in a switch. Then you need to know what the link types and port types are.
+
+
+What are the link types?
+
+The link type of VLAN can be divided into access link and trunk link.
+
+Access link is part of only one VLAN, and normally is for end devices. Any device attached to an access link is unaware of a VLAN membership. An access-link connection can understand only standard Ethernet frames. Switches remove any VLAN information from the frame before it is sent to an access-link device.
+
+Trunk link can carry multiple VLAN traffic and normally is used to connect switches to other switches or to routers.
+
+
+What are the port types?
+
+Access ports:
+
+l Belong to one VLAN.
+
+l Commonly used to connect computer ports.
+
+
+Trunk ports:
+
+l Allow multiple VLANs through.
+
+l Receive and send multiple VLAN packets.
+
+l Typically used for connection between switches.
+
+
+Hybrid ports:
+
+l Allow multiple VLANs through.
+
+l Receive and send multiple VLAN packets.
+
+l Used for connection between switches, or switch and computer, or switch to phone to computer.
+
+You may get well grasp an understading of ports types in following table.
 
 | No | Port Type | Support Mode          | Common Use Cases       | Comments                             |
-|----|-----------|-----------------------|------------------------|--------------------------------------|
-| 1  | Access    | Single Untagged VLAN  | Switch Port to Device  | Unifi name it "Native" other vendor setup Untagged and PVID (using the same VLAN ID)  |
+|:----|:-----------|:-----------------------|:------------------------|:--------------------------------------|
+| 1  | Access    | Single Untagged VLAN  | Switch Port to Device  | Unifi name it "Native" other vendor setup Access Ports by Untagging the port and setting the PVID (usually using the same VLAN ID)|
 | 2  | Trunk     | Single Untagged VLAN + Multiple Tagged VLAN's | Switch to Switch, Hypervisor to Switch | VLAN 1 can be Tagged (Untagged by default) |
 | 3  | Hybrid    | Support Untagged VLAN's and Tagged VLAN's | Physical Connection: IP Phone to Network Switch Port & a PC to IP Phones Switch port.| Logical Connection: Voice VLAN as Tagged & Data VLAN as Untagged & Switch port in Trunk mode | * Usually the Untagged VLAN number = Native/Default VLAN number| * Support for multi-Untagged Frames, usually require the use of protocol-based VLANs | * VLAN 1 can be Tagged (Untagged by default) |
+### References
 
-[Here](https://nguvu.org/) is a list list of guides that I used as a starting point (well written and concise).
-Network Ports kind explained [Access Port v Trunk Port v Hybrid Port](https://www.utepo.net/article/detail/251.html)
+- [Here](https://nguvu.org/) is a list list of guides that I used as a starting point (well written and concise).
+- Network Ports kind explained [Access Port v Trunk Port v Hybrid Port](https://www.utepo.net/article/detail/251.html)
