@@ -36,7 +36,7 @@ Trunk link can carry multiple VLAN traffic and normally is used to connect switc
 
 #### Access ports:
 - Belongs to one VLAN.
-- Commonly used to connect computer ports.
+- Commonly used to connect a computer to a ports.
 
 #### Trunk ports:
 - Allow multiple VLANs through.
@@ -50,12 +50,13 @@ Trunk link can carry multiple VLAN traffic and normally is used to connect switc
 
 You might grasp an understading of ports types in following table.
 
-| No | Port Type | Support Mode          | Common Use Cases       | Comments                             |
-|:---|:----------|:----------------------|:-----------------------|:--------------------------------------|
-| 1  | Access    | Single Untagged VLAN  | Switch Port to Device  | Unifi name it "Native" other vendor setup Access Ports by Untagging the port and setting the PVID (usually using the same VLAN ID)|
-| 2  | Trunk     | Single Untagged VLAN + Multiple Tagged VLAN's | Switch to Switch, Hypervisor to Switch | VLAN 1 can be Tagged (Untagged by default) |
-| 3  | Hybrid    | Support Untagged VLAN's and Tagged VLAN's | Physical Connection: IP Phone to Network Switch Port & a PC to IP Phones Switch port.| Logical Connection: Voice VLAN as Tagged & Data VLAN as Untagged & Switch port in Trunk mode | * Usually the Untagged VLAN number = Native/Default VLAN number| * Support for multi-Untagged Frames, usually require the use of protocol-based VLANs | * VLAN 1 can be Tagged (Untagged by default) |
+| No | Port Type  | Support Mode          | Common Use Cases       | Comments                             |
+|:---|:----------:|:----------------------|:-----------------------|:--------------------------------------|
+| 1  | Access     | Single Untagged VLAN  | Switch Port to Device  | Unifi name it "Native" other vendor setup Access Ports by Untagging the port and setting the PVID (usually using the same VLAN ID)|
+| 2  | Trunk      | Single Untagged VLAN + Multiple Tagged VLAN's | Switch to Switch, Hypervisor to Switch | VLAN 1 can be Tagged (Untagged by default) |
+| 3  | Hybrid     | Support Untagged VLAN's and Tagged VLAN's | Physical Connection: IP Phone to Network Switch Port & a PC to IP Phones Switch port.| Logical Connection: Voice VLAN as Tagged & Data VLAN as Untagged & Switch port in Trunk mode | * Usually the Untagged VLAN number = Native/Default VLAN number| * Support for multi-Untagged Frames, usually require the use of protocol-based VLANs | * VLAN 1 can be Tagged (Untagged by default) |
 ### References
 
 - [Here](https://nguvu.org/) is a list list of guides that I used as a starting point (well written and concise).
 - Network Ports kind explained [Access Port v Trunk Port v Hybrid Port](https://www.utepo.net/article/detail/251.html)
+- What is a [PVID](https://www.megajason.com/2018/04/30/what-is-pvid/) (Port VLAN Identifier)
