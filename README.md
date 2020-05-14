@@ -5,7 +5,7 @@ This repository holds the setup and documentation of my home network, I've built
 This is my current network diagram, I used [draw.io](https://app.diagrams.net/) to create the network diagram.
 You can download the Ubiquiti Icons and Images for Diagrams [here](https://help.ui.com/hc/en-us/articles/204911374-Ubiquiti-Icons-and-Images-for-Diagrams).
 <p align="center">
-  <img width="1000" height="500" src="https://github.com/Billy-Dickson/Home-Network/tree/origin">
+  <img width="1000" height="500" src="assets/Home-Network.png">
 </p>
 ## Hardware
 Below is the hardware I use to run my home network, my network works great for me and my familys needs, and could probably support a small office, or home office if needed.
