@@ -3,9 +3,8 @@ This repository holds the setup and documentation of my home network, I've built
 
 ## Network Diagram
 This is my current network diagram, I used [draw.io](https://app.diagrams.net/) to create the network diagram.
-You can download the Ubiquiti Icons and Images for Diagrams [here](https://help.ui.com/hc/en-us/articles/204911374-Ubiquiti-Icons-and-Images-for-Diagrams).
 <p align="center">
-  <img width="716" height="692" src="https://github.com/Billy-Dickson/Home-Network/blob/origin/assets/Network-Diagram.png"></p>
+  <img width="710" height="786" src="https://github.com/Billy-Dickson/Home-Network/blob/origin/assets/Network-Diagram.png"></p>
 
 ## Hardware
 Below is the hardware I use to run my home network, my network works great for me and my familys needs, and could probably support a small office, or home office if needed.
@@ -32,23 +31,24 @@ The link type can be divided into access link and trunk link.
 
 Access link is part of only one VLAN, and normally is for end devices. Any device attached to an access link is unaware of a VLAN membership. An access-link connection can understand only standard Ethernet frames. Switches remove any VLAN information from the frame before it is sent to an access-link device.
 
-Trunk link can carry multiple VLAN traffic and normally is used to connect switches to other switches or to routers.
+Trunk link can carry multiple VLAN traffic and normally is used to connect switches to other switches or to routers or switches to wireless access points.
 
 ### What are the port types?
 
 #### Access ports:
 - Belongs to one VLAN.
+- Usually an Untagged VLAN with the corresponding PVID (Native VLAN in Ubiquti language).
 - Commonly used to connect a computer to a ports.
 
 #### Trunk ports:
 - Allow multiple VLANs through.
 - Receives and sends multiple VLAN packets.
-- Typically used for connection switches together or routers and switches.
+- Typically used for connection switches together or routers and switches or switches and wireless access point.
 
 #### Hybrid ports:
 - Allow multiple VLANs through.
 - Receive and sends multiple VLAN packets.
-- Used for connections between switches, switch to phone to computer (Devices that understand tags).
+- Used for connections between switches, switch to phone to computer (Devices that understand tags) see [802.1Q](https://en.wikipedia.org/wiki/IEEE_802.1Q) on more information on VLAN tagging..
 
 You might grasp an understading of ports types in following table.
 
