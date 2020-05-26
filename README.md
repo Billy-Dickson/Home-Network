@@ -2,7 +2,7 @@
 This repository holds the setup and documentation of my home network, I've built up my home network from guides and other free online documentation, feel free to use this as a starting point or as a source of information when your building your own home network. Building a home network is the best way to learn, and can be much cheaper than you think. It is also a really good way to teach yourself about VLANS, subnetting and network security.
 
 ## Network Diagram
-This is my current network diagram, I used [draw.io](https://app.diagrams.net/) to create the network diagram.
+This is my current network diagram, I used [draw.io](https://app.diagrams.net/) to create this network diagram.
 <p align="center">
   <img width="710" height="786" src="https://github.com/Billy-Dickson/Home-Network/blob/origin/assets/Network-Diagram.png"></p>
 
@@ -61,3 +61,4 @@ You might grasp an understading of ports types in following table.
 
 - [Here](https://nguvu.org/) is a list list of guides that I used as a starting point (well written and concise).
 - What is a [PVID](https://www.megajason.com/2018/04/30/what-is-pvid/) (Port VLAN Identifier)
+- [Here](https://www.youtube.com/watch?v=fFtA0IlnMVk&t=1916s) is a good primer on Trunk Port, Untagged VLAN's etc.
