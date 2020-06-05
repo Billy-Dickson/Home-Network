@@ -20,7 +20,7 @@ Below is the hardware I use to run my home network, my network works great for m
 | 10 x Tool-Less Keystone Modules | [Cat 6 UTP Keystone Module](https://www.cablemonkey.co.uk/cat6-modules-outlets/9503-cat6-utp-tool-less-keystone-module.html?search_query=UTP+Tool-Less+Keystone+Module&results=5) | 30   |
 | Cat 6 UTP 100m | [Cat 6 UTP PVC Solid Core Cable](https://www.magicpatch.co.uk/cat6-cable/21-excel-cat6-utp-cable.html) | 36    |
 | 2 x 19" Rack Mount for Unifi Switch | [SimpleNetwork for Unifi 8 Port](https://www.amazon.co.uk/gp/product/B07VHQGZ7C/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) | 50    |
-| Black Silicone RJ45 Anti Dust Cover Caps | [Black Silicone RJ45 Anti Dust Cover Caps](https://www.amazon.co.uk/gp/product/B077R8ZKZ6/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) | 20   |
+| RJ45 Anti Dust Cover Caps | [Black Silicone RJ45 Anti Dust Cover Caps](https://www.amazon.co.uk/gp/product/B077R8ZKZ6/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) | 20   |
 
 
 ## Network Explainer
