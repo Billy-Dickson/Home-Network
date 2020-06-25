@@ -21,7 +21,7 @@ Below is the hardware I use to run my home network, my network works great for m
 | Cat 6 UTP 100m | [Cat 6 UTP PVC Solid Core Cable](https://www.magicpatch.co.uk/cat6-cable/21-excel-cat6-utp-cable.html) | 36    |
 | 2 x 19" Rack Mount for Unifi Switch | [SimpleNetwork for Unifi 8 Port](https://www.amazon.co.uk/gp/product/B07VHQGZ7C/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) | 50    |
 | RJ45 Anti Dust Cover Caps | [Black Silicone RJ45 Anti Dust Cover Caps](https://www.amazon.co.uk/gp/product/B077R8ZKZ6/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) | 20   |
-
+| Wall Mounted Network Cabinet | [6u 19" 450mm Deep Black Wall Mounted Data Cabinet](https://www.amazon.co.uk/gp/product/B01CEMGIAM/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) | 70  |
 
 ## Network Explainer
 
