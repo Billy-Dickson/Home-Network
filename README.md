@@ -3,6 +3,7 @@ This repository holds the setup and documentation of my home network, I've built
 
 ## Network Diagram
 This is my current network diagram, I used [draw.io](https://app.diagrams.net/) to create this network diagram.
+
 <p align="center">
   <img width="710" height="786" src="assets/Network-Diagram.png"></p>
 
