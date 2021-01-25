@@ -53,7 +53,7 @@ Trunk link can carry multiple VLAN traffic and normally is used to connect switc
 - Receive and sends multiple VLAN packets.
 - Used for connections between switches, switch to phone to computer (Devices that understand tags) see [802.1Q](https://en.wikipedia.org/wiki/IEEE_802.1Q) on more information on VLAN tagging..
 
-You might grasp an understading of ports types in following table.
+You might grasp an understanding of ports types in following table.
 
 | No | Port Type  | Support Mode          | Common Use Cases       | Comments                             |
 |:---|:----------:|:----------------------|:-----------------------|:--------------------------------------|
