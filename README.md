@@ -1,6 +1,9 @@
+# Introduction
+This repository holds the setup and documentation of my home network, I've built up my home network from YouTube guides and other free online documentation, feel free to use this as a starting point or as a source of information when your building your own home network. Building a home network is the best way to learn, and can be much cheaper than you think. It is also a really good way to teach yourself about VLANS, subnetting and network security.
+
 ## Table of Contents
 
-- [Introduction](#introduction)
+
   - [Network](#network)
   - [Network Diagram](#network-diagram)
   - [Hardware](#hardware)
@@ -11,9 +14,6 @@
       - [Trunk ports:](#trunk-ports)
       - [Hybrid ports:](#hybrid-ports)
   - [References](#references)
-
-# Introduction
-This repository holds the setup and documentation of my home network, I've built up my home network from guides and other free online documentation, feel free to use this as a starting point or as a source of information when your building your own home network. Building a home network is the best way to learn, and can be much cheaper than you think. It is also a really good way to teach yourself about VLANS, subnetting and network security.
 
 ## Network
 
