@@ -1,5 +1,22 @@
-# Home Network
+## Table of Contents
+
+- [Introduction](#introduction)
+  - [Network](#network)
+  - [Network Diagram](#network-diagram)
+  - [Hardware](#hardware)
+  - [Network Explainer](#network-explainer)
+    - [What are the link types?](#what-are-the-link-types)
+    - [What are the port types?](#what-are-the-port-types)
+      - [Access ports:](#access-ports)
+      - [Trunk ports:](#trunk-ports)
+      - [Hybrid ports:](#hybrid-ports)
+  - [References](#references)
+
+# Introduction
 This repository holds the setup and documentation of my home network, I've built up my home network from guides and other free online documentation, feel free to use this as a starting point or as a source of information when your building your own home network. Building a home network is the best way to learn, and can be much cheaper than you think. It is also a really good way to teach yourself about VLANS, subnetting and network security.
+
+## Network
+
 
 ## Network Diagram
 This is my current network diagram, I used [draw.io](https://app.diagrams.net/) to create this network diagram.
@@ -23,6 +40,7 @@ Below is the hardware I use to run my home network, my network works great for m
 | 2 x 19" Rack Mount for Unifi Switch | [SimpleNetwork for Unifi 8 Port](https://www.amazon.co.uk/gp/product/B07VHQGZ7C/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) | 50    |
 | RJ45 Anti Dust Cover Caps | [Black Silicone RJ45 Anti Dust Cover Caps](https://www.amazon.co.uk/gp/product/B077R8ZKZ6/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) | 20   |
 | Wall Mounted Network Cabinet | [6u 19" 450mm Deep Black Wall Mounted Data Cabinet](https://www.amazon.co.uk/gp/product/B01CEMGIAM/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) | 70  |
+| Eaton UPS 5E 650iUSB | [Eaton UPS 650iUSB](https://ebay.co.uk/) | 50 |
 
 ## Network Explainer
 
@@ -60,8 +78,9 @@ You might grasp an understanding of ports types in following table.
 | 1  | Access     | Single Untagged VLAN  | Switch Port to Device  | Unifi name it "Native", other vendors setup Access Ports by untagging the port and setting the PVID (usually using the same VLAN ID)|
 | 2  | Trunk      | Single Untagged VLAN + Multiple Tagged VLAN's | Switch to Switch, Hypervisor to Switch | VLAN 1 can be Tagged (Untagged by default) |
 | 3  | Hybrid     | Support Untagged VLAN's and Tagged VLAN's | Physical Connection: IP Phone to Network Switch Port & a PC to IP Phones Switch port.| Logical Connection: Voice VLAN as Tagged & Data VLAN as Untagged & Switch port in Trunk mode | * Usually the Untagged VLAN number = Native/Default VLAN number| * Support for multi-Untagged Frames, usually require the use of protocol-based VLANs | * VLAN 1 can be Tagged (Untagged by default) |
-### References
+## References
 
 - [Here](https://nguvu.org/) is a list list of guides that I used as a starting point (well written and concise).
 - What is a [PVID](https://www.megajason.com/2018/04/30/what-is-pvid/) (Port VLAN Identifier)
 - [Here](https://www.youtube.com/watch?v=fFtA0IlnMVk&t=1916s) is a good primer on Trunk Port, Untagged VLAN's etc.
+ Create a table of content for a [GitHub markdown files](https://imthenachoman.github.io/nGitHubTOC/)
