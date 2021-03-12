@@ -3,9 +3,8 @@ This repository holds the setup and documentation of my home network, I've built
 
 ## Table of Contents
 
-
-  - [Network](#network)
-  - [Network Diagram](#network-diagram)
+  - [Physical Network Diagram](#physical-network-diagram)
+  - [Logical Network Diagram](#logical-network-diagram)
   - [Hardware](#hardware)
   - [Network Explainer](#network-explainer)
     - [What are the link types?](#what-are-the-link-types)
@@ -15,14 +14,14 @@ This repository holds the setup and documentation of my home network, I've built
       - [Hybrid ports:](#hybrid-ports)
   - [References](#references)
 
-## Network
-
-
-## Network Diagram
-This is my current network diagram, I used [draw.io](https://app.diagrams.net/) to create this network diagram.
+## Physical Network Diagram
+This is my current physical network diagram, I used [draw.io](https://app.diagrams.net/) to create the diagram.
 
 <p align="center">
   <img width="710" height="786" src="assets/Network-Diagram.png"></p>
+
+## Logical Network Diagram
+  Logical network diagram to follow, showing VLANs and associated endpoint, also to include default route to my ISP and the default route for other VLANs via VPN endpoints.
 
 ## Hardware
 Below is the hardware I use to run my home network, my network works great for me and my familys needs, and could probably support a small office, or home office if needed.
