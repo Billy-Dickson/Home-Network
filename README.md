@@ -1,6 +1,8 @@
 # Introduction
 This repository holds the setup and documentation of my home network, I've built up my home network from YouTube guides and other free online documentation, feel free to use this as a starting point or as a source of information when your building your own home network. Building a home network is the best way to learn, and can be much cheaper than you think. It is also a really good way to teach yourself about VLANS, subnetting and network security.
 
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
 ## Table of Contents
 
   - [Physical Network Diagram](#physical-network-diagram)
