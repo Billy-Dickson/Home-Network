@@ -84,5 +84,5 @@ You might grasp an understanding of ports types in following table.
 - [Here](https://nguvu.org/) is a list list of guides that I used as a starting point (well written and concise).
 - What is a [PVID](https://www.megajason.com/2018/04/30/what-is-pvid/) (Port VLAN Identifier)
 - [Here](https://www.youtube.com/watch?v=fFtA0IlnMVk&t=1916s) is a good primer on Trunk Port, Untagged VLAN's etc.
- Create a table of content for a [GitHub markdown files](https://imthenachoman.github.io/nGitHubTOC/)
- [Licence Badges] for your github project(https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+- Create a table of content for a [GitHub markdown files](https://imthenachoman.github.io/nGitHubTOC/)
+- Github Project [Licence Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
