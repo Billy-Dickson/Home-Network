@@ -1,5 +1,5 @@
 # Introduction
-This repository holds the setup and documentation of my home network, I've built up my home network from YouTube guides and other free online documentation, feel free to use this as a starting point or as a source of information when your building your own home network. Building a home network is the best way to learn, and can be much cheaper than you think. It is also a really good way to teach yourself about VLANS, subnetting and network security.
+This repository holds the setup and documentation of my home network, I've built up my home network from YouTube guides and other free online documentation, feel free to use this as a starting point or as a source of information when your building your own home network. Building a home network is the one of the best ways to learn about networking, and can be much cheaper than you think. It is also a really good way to teach yourself about VLANS, subnetting and network security.
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -26,7 +26,7 @@ This is my current physical network diagram, I used [draw.io](https://app.diagra
   Logical network diagram to follow, showing VLANs and associated endpoint, also to include default route to my ISP and the default route for other VLANs via VPN endpoints.
 
 ## Hardware
-Below is the hardware I use to run my home network, my network works great for me and my familys needs, and could probably support a small office, or home office if needed.
+Below is the hardware I use to run my home network, my network works great for me and my family's needs, and could probably support a small office, or home office if needed.
 
 | Function                        | Name                       | Cost £  |
 | :-------------                  |:-------------              | -----:  |
@@ -41,7 +41,8 @@ Below is the hardware I use to run my home network, my network works great for m
 | 2 x 19" Rack Mount for Unifi Switch | [SimpleNetwork for Unifi 8 Port](https://www.amazon.co.uk/gp/product/B07VHQGZ7C/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) | 50    |
 | RJ45 Anti Dust Cover Caps | [Black Silicone RJ45 Anti Dust Cover Caps](https://www.amazon.co.uk/gp/product/B077R8ZKZ6/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) | 20   |
 | Wall Mounted Network Cabinet | [6u 19" 450mm Deep Black Wall Mounted Data Cabinet](https://www.amazon.co.uk/gp/product/B01CEMGIAM/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) | 70  |
-| Eaton UPS 5E 650iUSB | [Eaton UPS 650iUSB](https://ebay.co.uk/) | 50 |
+| Eaton UPS 5E 650i USB | [Eaton UPS 650iUSB](https://ebay.co.uk/) | 50 |
+| Eaton E NV1000H 1000 VA Tower | [Eaton UPS 1000 VA Tower](https://www.ebay.co.uk/usr/ups-trader) | 110 |
 
 ## Network Explainer
 
